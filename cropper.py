@@ -17,6 +17,7 @@ print(f"이미지의 높이는 {HEIGHT} 정도 입니다.")
 print(f"이미지를 {wanted_num_of_crops}개로 나누면, 약 {div} 정도의 사이즈를 가집니다.")
 print(f"{wanted_num_of_crops}개의 이미지로 나눕니다.")
 
+import ipdb; ipdb.set_trace()  # XXX BREAKPOINT
 first_div = random.randint(10, div)
 
 num_of_crops = 0
